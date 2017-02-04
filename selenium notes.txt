@@ -1,0 +1,68 @@
+javascript is mailnly used for client side programming and to change web page at clientside dynamically
+
+
+advantages of cucumber over selenium:
+1.plugin in cucumber works faster than plugin in selenium
+
+selenium2.0:
+here both selenium rc and selenium webdriver are combined into single tool selenium2.0
+
+selenium3.0:
+selenium3.0 is the latest version of selenium. selenium3.0 introduced two bete versions beta1 and beta2
+
+beta1 updates                                               beta2 updates
+1.minimum java version is 8+                                1.System property webdriver.firefox.marionette now forces the server in marionette or legacy firefox driver mode, ignoring any related Desired Capability
+2.supports firefox via mozilla's geckodriver                2.Grid fixes NPE’s on registration when -browser not specified
+3.support for edge is provided by MS and supports safari    3.Update GeckoDriver –port argument in all bindings
+on MacOS via apple's own safari driver.
+
+3.FINDING AN ELEMENT USING SELENIUM:
+every object or control in webpage is called as webelement. these webelements in webpage are located by 
+id
+name
+xpath
+linktext
+partiallinktext
+css 
+tag
+attribute 
+
+4.TEST TYPES SUPPORTED BY SELENIUM:
+functional testing 
+regression testing
+For post release validation with continuous integration automation tool used is
+jenkins
+hudson
+quick build
+cruiseCont
+
+5. ASSERTION IN SELENIUM AND TYPES OF ASSERTIONS IN SELENIUM:
+assertion is used as verification point. it is used to conform that the result is occuring as expected.
+types of assertions in selenium are
+assert
+verify
+waitFor
+
+6.USE OF XPATH:
+it is used to identify an webelement in webpage. it is also used to identify dynamic elements
+
+7. DIFFERENCE BETWEEN SINGLE SLASH AND DOUBLE SLASH IN XPATH:
+     single slash start selection from the document node.
+     single slash is used to create absolute path expression
+    double slash start selection matching anywhere in the document
+     double slash enables relative path expression.
+8. TECHNICAL CHALLENGES WITH SELENIUM:
+1. it supports only web based applications
+2.it doesnot support bitmap comparisona
+3. no vendor support for tool, compared to tools like hp uft
+4.no object repository concept in selenium because of that maintaining of objects is difficult
+5.for reporting related capabilities, we have to depend on third party.
+
+9. DIFFERENCE BETWEEN TYPEKEYS AND TYPE COMMANDS
+  typekeys() will trigger javascript event whereas type() doesn't.  Type key populates the value attribute using JavaScript whereas .typekeys() emulates like actual user typing.
+
+10. DIFFERENCE BETWEEN ASSERT AND VERIFY COMMANDS:
+assert command is used to check whether the webelement is on the page or not.The test will stop on the step failed, if the asserted element is not available
+verify command will check whether the webelement is on the page if it is not then the test will carry on executing.
+11. JUNIT ANNOTATIONS AND DIFFERENT TYPES OF ANNOTATIONS:
+A special form of syntactic meta data can be added to java source code, which is known as annotations.
